@@ -7,7 +7,7 @@ A simple and interactive Captcha Generator built using **HTML, CSS, and JavaScri
 - Random captcha generation
 - Captcha refresh button
 - User input validation
-- Success and error message display
+- Success and error message display 
 - Responsive and clean UI
 - Font Awesome refresh icon support
 
