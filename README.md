@@ -2,6 +2,10 @@
 
 A simple and interactive Captcha Generator built using **HTML, CSS, and JavaScript**. This project generates a random captcha code that users must enter correctly for verification. It also includes a refresh option to generate a new captcha instantly.
 
+## 🚀 Live Demo
+
+🔗 https://preethigajeganathan.github.io/CAPTCHA-Generator/
+
 ## 🚀 Features
 
 - Random captcha generation
