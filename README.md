@@ -6,6 +6,8 @@ A simple and interactive Captcha Generator built using **HTML, CSS, and JavaScri
 
 🔗 https://preethigajeganathan.github.io/CAPTCHA-Generator/
 
+
+
 ## 🚀 Features
 
 - Random captcha generation
