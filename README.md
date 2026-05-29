@@ -6,8 +6,6 @@ A simple and interactive Captcha Generator built using **HTML, CSS, and JavaScri
 
 🔗 https://preethigajeganathan.github.io/CAPTCHA-Generator/
 
-
-
 ## 🚀 Features
 
 - Random captcha generation
@@ -22,7 +20,7 @@ A simple and interactive Captcha Generator built using **HTML, CSS, and JavaScri
 ```
 captcha-generator/
 │
-├── captcha.html
+├── index.html
 ├── captcha.js
 ├── README.md
 ```
@@ -49,7 +47,7 @@ captcha-generator/
 1. Download or clone the repository:
 
 ```bash
-git clone https://github.com/your-username/captcha-generator.git
+git clone https://github.com/preethigajeganathan/CAPTCHA-Generator.git
 ```
 
 2. Open the project folder.
@@ -86,6 +84,8 @@ The application works smoothly on:
 - Audio captcha support
 
 ## 👨‍💻 Author
+
+Preethiga J
 
 Developed as a frontend JavaScript practice project to understand:
 
