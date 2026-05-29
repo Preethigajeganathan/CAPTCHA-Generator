@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Captcha Generator</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+       body{
+           height: 100vh;
+           align-items: center;
+           background-color: #27D3F5;
+           box-sizing: border-box;
+           display: flex;
+           justify-content: center;
+        }
+
+        .container{
+            width: 300px;
+            height: 250px;
+            padding: 25px 30px;
+            background-color: white;
+            align-items: center;
+            border-radius: 15px;
+        }
+        .container h3{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .asr input{
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 17px 5px;
+            border-radius: 8px;
+            border: solid 1px rgb(27, 37, 34);
+            font-size: 18px;
+            
+        }
+        .sub{
+            width: 100%;
+            padding: 10px 8px;
+            border-radius: 8px;
+            margin-top: 10px;
+            background-color: #27D3F5;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .cls {
+            letter-spacing: 25px;
+            font-size: 20px;
+        }
+        .captcha-box{
+           position: relative;
+           width: 100%;
+        }
+
+       .captcha-box input{
+          width: 100%;
+          padding: 17px 5px ;
+        }
+
+        .captcha-box button{
+          position: absolute;
+          right: 10px;
+          top: 13px;
+          border: none;
+          padding: 8px;
+          background-color: #27D3F5;
+          border-radius: 8px;
+          font-size: 18px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 900;
+            margin-top: 10px;
+            color: white;
+            text-align: center;
+        }
+        #inp{
+            letter-spacing: 25px;
+        }
+
+       #inp::placeholder{
+            letter-spacing: normal;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form class="container" action="#">
+        <h3>Captcha Generator</h3>
+        <div class="asr">
+            
+            <div class="captcha-box">
+                 <input id="cap" class="cls" type="text" readonly>
+                 <button type="button" onclick="refresh()"><i class="fa-solid fa-arrow-rotate-right fa-xl" style="color: rgb(0, 4, 9);"></i></button>
+            </div>
+        
+                <input id="inp" type="text" placeholder="Enter Captcha">
+            
+            <button class="sub" onclick="sub()">Submit</button>
+        </div>
+    </form>
+         <p id="result"></p>
+    </div>
+    <script src="7_captcha.js"></script>
+</body>
+</html>
